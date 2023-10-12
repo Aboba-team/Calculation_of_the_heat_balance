@@ -19,11 +19,13 @@
 6. **Удобный интерфейс и визуализация результатов:** Пользовательский интерфейс приложения предоставляет простой и интуитивно понятный способ ввода данных и просмотра результатов расчетов.
 
 **Пример работы**
-![image](https://github.com/teslaproduuction/Calculation_of_the_heat_balance/assets/117762137/057b4016-ae20-41c8-9470-9928cc55f64a)
+
+![image](https://github.com/teslaproduuction/Calculation_of_the_heat_balance/assets/117762137/448b514c-5017-4273-9262-d090674bf66c)
 
 Основное окно программы
 
-![image](https://github.com/teslaproduuction/Calculation_of_the_heat_balance/assets/117762137/8c6ca5d4-c07f-4383-9db9-d617181982bc)
+![image](https://github.com/teslaproduuction/Calculation_of_the_heat_balance/assets/117762137/54798c94-c938-4b23-9e96-2ab307a97e27)
+
 
 График охлаждения отливки
 
