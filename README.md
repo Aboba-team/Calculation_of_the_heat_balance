@@ -1,4 +1,8 @@
 # Calculation_of_the_heat_balance
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README_EN.md)
+[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](https://github.com/teslaproduuction/Calculation_of_the_heat_balance/blob/master/README.md)
+
 Конечный тепловой баланс в пресс-форме играет критическую роль в процессе литья металлических отливок. Это важное технологическое свойство позволяет определить, сколько тепла поглощает отливка и сколько тепла должно быть отведено из пресс-формы, чтобы обеспечить устойчивый процесс литья. Для эффективного управления этим процессом было разработано приложение для расчета теплового баланса пресс-формы.
 
 **Общее описание:**
