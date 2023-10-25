@@ -1,6 +1,6 @@
 # Calculation of the Heat Balance
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README_EN.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/teslaproduuction/Calculation_of_the_heat_balance/blob/master/README_EN.md)
 [![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](https://github.com/teslaproduuction/Calculation_of_the_heat_balance/blob/master/README.md)
 
 The final heat balance in a mold plays a critical role in the process of casting metal parts. This important technological property allows determining how much heat is absorbed by the casting and how much heat needs to be dissipated from the mold to ensure a stable casting process. To effectively manage this process, an application has been developed for calculating the heat balance in the mold.
