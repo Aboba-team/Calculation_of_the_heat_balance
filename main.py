@@ -5,10 +5,11 @@ from tkinter import *
 import codecs
 from datetime import date
 import matplotlib.pyplot as plt
+
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from tkinter import messagebox
 import sqlite3
-
+import webbrowser
 
 root = Tk()
 root.resizable(width=False, height=False)
@@ -17,6 +18,42 @@ selected_option = tk.StringVar()
 combo = ttk.Combobox(root, textvariable=selected_options, width=17)
 combo.grid(column=1, row=3)
 combo.set("Выберите марку сплава")
+#добавь вкладку о программе tkinter
+menu = tk.Menu(root)
+root.config(menu=menu)
+
+def open_web(event):
+    webbrowser.open_new(event.widget.cget("text"))
+
+def about():
+    about_window = tk.Toplevel(root)
+    about_window.title("О программе")
+
+    link1 = tk.Label(about_window, text="https://github.com/teslaproduuction", fg="blue", cursor="hand2")
+    link1.pack()
+    link1.bind("<Button-1>", open_web)
+
+    link2 = tk.Label(about_window, text="https://t.me/T_e_s_I_a", fg="blue", cursor="hand2")
+    link2.pack()
+    link2.bind("<Button-1>", open_web)
+
+    link3 = tk.Label(about_window, text="https://github.com/capitansogo", fg="blue", cursor="hand2")
+    link3.pack()
+    link3.bind("<Button-1>", open_web)
+
+    link4 = tk.Label(about_window, text="https://t.me/capitansogo", fg="blue", cursor="hand2")
+    link4.pack()
+    link4.bind("<Button-1>", open_web)
+
+menu = tk.Menu(root)
+root.config(menu=menu)
+
+helpmenu = tk.Menu(menu)
+menu.add_cascade(label="Помощь", menu=helpmenu)
+helpmenu.add_command(label="О программе", command=about)
+
+
+
 
 
 def update_combobox():
@@ -624,6 +661,8 @@ try:
     entry_d.insert(0, "Наименование отливки")
     entry_m.insert(0, "Марка сплава")
     entry_n.insert(0, "90")
+
+
 
 
 except:
